@@ -1,0 +1,29 @@
+{
+  "name": "acme-widget-co-basket",
+  "version": "1.0.0",
+  "description": "Proof of concept sales system: basket, offers, delivery pricing (Node + TypeScript).",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "ts-node src/app/demo.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "basket",
+    "checkout",
+    "strategy",
+    "typescript",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
